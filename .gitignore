@@ -25,3 +25,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#hm
+./src/components/MainMenu
+./src/components/ToggleButton
+./src/components/Vote
+./src/data

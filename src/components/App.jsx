@@ -1,16 +1,16 @@
-export const App = () => {
+import Feedback from './Feedback/Feedback';
+
+// import menuItems from '../data/data';
+
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className="app">
+      {/* <MainMenu items={menuItems} />
+      <ToggleButton text="Click me" type="button" />
+      <Vote /> */}
+      <Feedback />
     </div>
   );
-};
+}
+
+export default App;
